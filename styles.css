@@ -1,3 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+.row {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.primary-btn {
+    background-color: #7342d6;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+/* NAV */
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+    height: 80px ;
+}
+
+.nav__logo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav__links {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__logo--image{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.nav__logo--text-wrapper{
+    display: flex;
+    text-align: center;
+}
+
+.nav__logo--text{
+    font-weight: 700 bold;
+    font-size: 24px;
+    color: black;
+    
+}
+
+.nav__link {
+    margin-left: 24px;
+    text-decoration: none;
+}
+
+.nav__link--secondary {
+    margin-left: 64px;
+}
+
+.nav__link--primary {
+
+}
+
+
